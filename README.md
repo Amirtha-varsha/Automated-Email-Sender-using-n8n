@@ -1,6 +1,6 @@
 # 📧 Automated Motivational Email Sender (n8n Workflow)
 
-## 🌟 Project Overview
+##  Project Overview
 
 This project is an automation workflow built using **n8n** that sends personalized motivational emails to users whose tasks are due today. The workflow reads user data from a Google Sheet, filters records based on the due date, and sends a customized email to each user using Gmail.
 
@@ -8,24 +8,24 @@ This project demonstrates practical skills in workflow automation, data filterin
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To automatically send a lovely and motivational message to each user whose due date matches today's date — without manual effort.
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
-* ✅ Reads data from Google Sheets
-* ✅ Filters rows where **Due Date = Today**
-* ✅ Personalizes email using each user's name
-* ✅ Sends emails automatically via Gmail
-* ✅ Processes multiple users at once
-* ✅ No coding required (low-code automation)
+*  Reads data from Google Sheets
+*  Filters rows where **Due Date = Today**
+*  Personalizes email using each user's name
+*  Sends emails automatically via Gmail
+*  Processes multiple users at once
+*  No coding required (low-code automation)
 
 ---
 
-## 🏗️ Workflow Architecture
+##  Workflow Architecture
 
 **Google Sheets → Filter → Set Node → Gmail Node → Emails Sent**
 
@@ -38,7 +38,7 @@ To automatically send a lovely and motivational message to each user whose due d
 
 ---
 
-## 📊 Input Data Format (Google Sheet)
+## Input Data Format (Google Sheet)
 
 | Name   | Email                                     | Due Date   |
 | ------ | ----------------------------------------- | ---------- |
@@ -47,24 +47,24 @@ To automatically send a lovely and motivational message to each user whose due d
 
 ---
 
-## 💌 Email Content (Example)
+##  Email Content (Example)
 
-Subject: A Little Boost for Today ✨
+Subject: A Little Boost for Today 
 
 Hi {{Name}},
 
-Just a gentle reminder that today is a wonderful opportunity to move one step closer to your goals 🌱
+Just a gentle reminder that today is a wonderful opportunity to move one step closer to your goals 
 
-Believe in yourself, stay positive, and remember that every small effort counts. You’ve got this 💪
+Believe in yourself, stay positive, and remember that every small effort counts. You’ve got this 
 
-Wishing you a productive and beautiful day ahead ✨
+Wishing you a productive and beautiful day ahead 
 
 Warm regards,
 Automation Bot
 
 ---
 
-## 🛠️ Tools & Technologies Used
+##  Tools & Technologies Used
 
 * n8n (Workflow Automation)
 * Google Sheets API
@@ -72,7 +72,7 @@ Automation Bot
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 1. Create a Google Sheet with Name, Email, and Due Date columns
 2. Connect Google Sheets to n8n
@@ -82,7 +82,7 @@ Automation Bot
 
 ---
 
-## 📌 Learning Outcomes
+##  Learning Outcomes
 
 * Real-world automation design
 * Data filtering and transformation
@@ -91,7 +91,7 @@ Automation Bot
 
 ---
 
-## 🌈 Future Improvements
+##  Future Improvements
 
 * Schedule automation to run daily
 * Add WhatsApp/Telegram notifications
