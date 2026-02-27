@@ -1,4 +1,4 @@
-# 📧 Automated Motivational Email Sender (n8n Workflow)
+# Automated Motivational Email Sender (n8n Workflow)
 
 ##  Project Overview
 
